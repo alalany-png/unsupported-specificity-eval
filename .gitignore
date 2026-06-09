@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+# Do not commit generated/stub run outputs as if they were findings.
+results/*.csv
+results/plots/*.png
+!results/.gitkeep
+# Exception: the vetted Pass-1 run artifacts ship as part of the code sample
+# (honest framing in RESULTS_NOTE.md).
+!results/raw_outputs.csv
+!results/scored.csv
+!results/labels_llm_judge.csv

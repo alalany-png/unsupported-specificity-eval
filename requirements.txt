@@ -1,0 +1,7 @@
+# Core (stub pipeline + analysis) — lightweight, no model needed
+matplotlib
+
+# Optional, only for a real local-model backend (see backends.py):
+#   transformers
+#   torch
+# Ollama backend needs no Python deps (talks to a local Ollama server over HTTP).
