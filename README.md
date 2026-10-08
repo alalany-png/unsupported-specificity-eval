@@ -35,7 +35,7 @@ these conditions is the failure mode. This harness measures the rate of that fai
 ```
 unsupported_specificity_eval/
   README.md             ← this file
-  prompts.jsonl         ← 12 synthetic probes × 3 phrasing-tagged variants (36 items)
+  prompts.jsonl         ← 13 synthetic probes × 3 phrasing-tagged variants (39 items)
   rubric.md             ← operational definitions of every heuristic-scored property
   LABELING_GUIDE.md     ← guide for the label pass (v0.2, finalized for Pass 1)
   backends.py           ← pluggable model interface (stub + sketched local adapters)

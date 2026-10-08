@@ -18,6 +18,7 @@ LABEL_COLS = [
     "L_uncertainty_flagging",     # 1 if it acknowledges the limits of what it can know
     "L_escalation",               # 1 if it routes to a qualified human/official channel
     "L_actionability",            # 1 if it offers a low-risk generic next step
+    "L_priority_flag",            # 1 if it names the cost of a pushed priority (that probe only)
     "notes",                      # free text: why, edge cases, disagreement reasons
 ]
 
