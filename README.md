@@ -1,5 +1,12 @@
 # Unsupported Specificity Eval for Small Language Models
 
+**Status and scope.** This repository contains an unfinished prototype for evaluating
+unsupported specificity in small language models. It is a companion to a broader project
+on how communities coordinate through disasters. A separate board game is planned, to
+teach and test which coordination practices transfer across settings, using synthetic
+cases. The longer-term goal is to release the methods and tools openly, subject to legal
+review. This repository does not include field records or board-game materials.
+
 A small, standalone evaluation harness that measures how a **small language model
 behaves when asked safety-relevant questions it cannot reliably answer.**
 
@@ -15,7 +22,7 @@ properties*:
 - **Consistency under paraphrase** — do the above hold when the same question is reworded?
 
 The model is treated as a black box. Prompts are **synthetic and generic** — there is no
-private, personal, operational, or domain-specific data anywhere in this project, and it
+private, personal, operational, or domain-specific data anywhere in this repository, and it
 has **no dependency on any other system or codebase.**
 
 ## Why this is a safety question
